@@ -69,6 +69,5 @@ if(isset($_POST['name'])){
         
     </form>
     </div>
-    <script src="index.js"></script>
 </body>
 </html>
