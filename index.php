@@ -3,8 +3,8 @@ $insert=false;
 if(isset($_POST['name'])){
     //Set connection variables
     $server="localhost";
-    $username="manishti_trip";
-    $password="Password@9245";
+    $username="*hidden due to privacy reasons*";
+    $password="*hidden due to privacy reasons*";
     $dbname="manishti_trip";
     // Create a connection
     $con=mysqli_connect($server,$username,$password,$dbname);
@@ -55,20 +55,4 @@ if(isset($_POST['name'])){
         <p>Enter your details and submit this form to confirm your participation in the trip</p>
         <?php
         if($insert==true){
-        echo "<p class='submitmsg'>Thanks for submitting your form.We are happy to see on board for the trip</p>";
-        }
-        ?>
-        <form action="index.php" method="post">
-        <input type="text" name="name" id="name" placeholder="Enter your Name">
-        <input type="text" name="age" id="age" placeholder="Enter your Age">
-        <input type="text" name="gender" id="gender" placeholder="Enter your gender">
-        <input type="email" name="email" id="email" placeholder="Enter your Email Id">
-        <input type="phone" name="phone" id="phone" placeholder="Enter your phone number">
-        <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other info here"></textarea>
-        <button class="btn">Submit</button>
-        <!-- <button class="btn">Reset</buttopn> -->
-        
-    </form>
-    </div>
-</body>
-</html>
+        echo "<p class='submitmsg'>Thanks for submitting your form.We are happy to see on board for the trip</p>
