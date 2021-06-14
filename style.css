@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+        background-image:linear-gradient(
+              to bottom,
+              hsl(330, 100%, 45.1%) 0%,
+              hsl(333.1, 79.6%, 49.9%) 8.1%,
+              hsl(335.47, 73.9%, 53.93%) 15.5%,
+              hsl(337.13, 65.81%, 57.23%) 22.5%,
+              hsl(337.99, 54.94%, 59.84%) 29%,
+              hsl(337.66, 41.47%, 61.78%) 35.3%,
+              hsl(334.52, 25.84%, 63.06%) 41.2%,
+              hsl(313.19, 8.78%, 63.7%) 47.1%,
+              hsl(195.96, 12.36%, 64.85%) 52.9%,
+              hsl(180.17, 25.94%, 63.09%) 58.8%,
+              hsl(176.52, 41.47%, 61.78%) 64.7%,
+              hsl(175.39, 54.94%, 59.84%) 71%,
+              hsl(175.08, 65.81%, 57.23%) 77.5%,
+              hsl(175.14, 73.9%, 53.93%) 84.5%,
+              hsl(175.41, 79.6%, 49.9%) 91.9%,
+              hsl(175.83, 100%, 45.1%) 100%
+            );
+    padding:34px;
+    margin:auto;
+}
+.container h1,p{
+    text-align: center;
+    
+}
+p{
+    font-size: 17px ;
+}
+input,textarea{
+    width:80%;
+    margin:11px auto;
+    padding: 7px;
+    font-size: 16px;
+    border:2px solid black;
+    border-radius:12px ;
+    outline: blue;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn{
+    color: cornsilk;
+    background: crimson;
+    padding: 7px 10px;
+    font-size: 20px;
+    border:2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.submitmsg{
+    color: yellow;
+}
