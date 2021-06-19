@@ -9,4 +9,4 @@
 ![MYPHPADMIN](https://github.com/manish-9245/Basic-php-form-with-sql-database/blob/main/stored%20in%20database.PNG)
 -The data recieved can be exported to different file types and used for analysis  
 PS-This is my first full-stack project
-Webpage Link- http://manishtiwari.host20.uk/Basic%20php%20form%20with%20database/index.php
+
